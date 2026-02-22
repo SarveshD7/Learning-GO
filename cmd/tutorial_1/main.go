@@ -8,32 +8,32 @@ import (
 func main(){
 
 	fmt.Println("Hello World!")
+	ds_main()
 	// var intNum int 
 	// fmt.Println(intNum)
 	// myVar := "text"
 	// fmt.Println(myVar)
 	// var1, var2 := 1,2
 	// fmt.Println(var1, var2)
-	var inputParam string = "PrintString"
-	printMe(inputParam)
+	// var inputParam string = "PrintString"
+	// printMe(inputParam)
 	
-	numerator, denominator := 10, 0
-	value, value2, err := intDivision(numerator, denominator)
+	// numerator, denominator := 10, 0
+	// value, value2, err := intDivision(numerator, denominator)
 	// if(err==nil){
 	// 	printInt(value, value2)
 	// }else{ 
 	// 	fmt.Printf(err.Error())
 	// }
-	switch(err){
-	case nil:
-		printInt(value, value2)
+	// switch(err){
+	// case nil:
+	// 	printInt(value, value2)
 		// break this is implied in GO
 	// case 1, 2:
 	// 	do something 
-	default:
-		fmt.Printf(err.Error())
-
-	}
+	// default:
+	// 	fmt.Printf(err.Error())
+	// }
 }
 
 func printInt(value int, value2 int){
